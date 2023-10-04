@@ -1,8 +1,11 @@
 import "./App.css"
+import Body from "./components/Body";
+import Head from "./components/Head";
 function App() {
   return (
     <div className="App">
-  <h1 className="  font-bold">Youtube clone</h1>    
+  <Head/>    
+  <Body/>
     </div>
   );
 }
